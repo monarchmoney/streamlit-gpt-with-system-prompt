@@ -55,4 +55,4 @@ for input, response in st.session_state["chat_history"]:
     st.write(source_texts)
 
 
-input = st.text_input("Your input", key="input", on_change=submit)
+input = st.text_area("Your input", key="input", on_change=submit)
